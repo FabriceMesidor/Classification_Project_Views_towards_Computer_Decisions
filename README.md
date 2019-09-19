@@ -1,6 +1,7 @@
 
 
-#  VIEWS OF AMERICANS TOWARDS COMPUTER DECISIONS: A MACHINE LEARNING MODEL TO CLASSIFY THEM
+#  Prediction of an American view toward computers algorithm based on the data collected from a Pew Research Center Survey done in 2018
+
 
 ## SUMMARY 
 Predict an American view towards computer decisions
