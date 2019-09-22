@@ -1,6 +1,6 @@
 
 
-#  Prediction of an American view toward computers algorithm based on the data collected from a Pew Research Center Survey done in 2018
+#  Prediction of an American adult view toward computers algorithm based on the data collected from a Pew Research Center Survey conducted in 2018
 
 
 ## SUMMARY 
