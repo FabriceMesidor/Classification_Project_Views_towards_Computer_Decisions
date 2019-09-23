@@ -6,7 +6,7 @@
 ## SUMMARY 
 Predict an American view towards computer decisions
 
-## SOURCE:
+## SOURCE
         2018 PEW RESEARCH CENTER'S AMERICAN TRENDS PANEL
 
 ## JUSTIFICATION
@@ -26,15 +26,33 @@ How social and demographic behavior of an individual can help predict is view to
 
 
 ## METHODOLOGY
+The study will be done using Python. I will use mainly the following libraries: Pandas, Numpy, SciPy. 
+The data 
+Data Cleaning
+Transformation
 
 
 ## EXPLORATORY DATA ANALYSIS
 
-## FEATURES ENGINERING
+###### Target variable:
+###### Features (33 selected from 190):
+ 
+#### Profiles of the respondents
+#### Attitudes towards comupter algorithms by Demographics of respondents
+
+
 
 ## MODELS
+Models used:
+EVALUATION:
+
+PCA to reduce the features
+Models results after PCA
 
 ## FINAL MODEL
+
+
+## CONSIDERATIONS
 
 
 
