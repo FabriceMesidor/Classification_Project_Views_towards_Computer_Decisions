@@ -36,7 +36,7 @@ Observations are 4,594 non-institutionalized persons age 18 and over, living in 
 View towards computer decisions:
 1. It is possible for computer programs to make decisions without human bias (PERFECT)
 2. Computer programs will always reflect the biases of the people who designed them
-##### Features (33 selected from 190):
+#### Features (33 selected from 190):
 The endogenous  variables used are:
 1. Demographics (Income - Age - Marital Status - Religion)
 2. Specific questions from the survey re social media use and opinions related to major technology companies
@@ -53,8 +53,10 @@ Before working with the data, some data cleaning and transformation were necessa
 ![Distribution target](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/Distribution_target.png)
 * Majority of the adults interviewed think that computer algorithms are biased by designers errors
 
-![age](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisionsblob/master//Support-Docs/Graphs-Pics/Age.png)
+![age](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/Age.png)
+
 ![Income](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/Income2.png)
+
 ![Education](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/Edcation.png)
 
 * 32% of the respondents are between 50-64 years old
@@ -62,10 +64,27 @@ Before working with the data, some data cleaning and transformation were necessa
 * 44% are earning US$75k or more
 * These profiles shows how the respondents are aware of the question asked
 
+#### Attitudes towards computer algorithms by Demographics Categories of respondents
+![by Income](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/IncomevsTarget.png)
 
+![by Marital Status](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/MaritalvsTarget.png)
 
-#### Attitudes towards comupter algorithms by Demographics of respondents
+![by Religion](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/ReligionvsTarget.png)
 
+* The attitudes towards computer decisions are not uniform and vary based on the profiles
+
+#### Views based on Social Media Behavior
+![Media Influence Policy](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/MediainfluencevsTarget.png)
+
+![Media Create Movement](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/MediacontentvsTarget.png)
+
+![Trust](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/TrustTechvsTarget.png)
+
+* The less important an adult consider social media influence, the most likely he will think computer decisions are biased
+* Similarly for creation of movement by social media
+* We can assume some difference of views based on interactions of respondents with social media or major tech companies
+
+#### Independence of Features and Target
 
 
 ## MODELS
