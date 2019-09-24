@@ -26,18 +26,45 @@ How social and demographic behavior of an individual can help predict is view to
 ## METHODOLOGY
 I used Python to undergo my analysis and models in my research. For managing my data and plotting graphs, I used Pandas and Matplotlib. ScikitLearn was really useful for fitting, predicting and evaluating models. Other librairies used: Numpy... 
 
-I downloaded the survey data conducted by PEW RESEARCH CENTER in 2018. The SPSS file from the [Pew Research Center website](https://www.pewinternet.org/?post_type=dataset)can be found [here](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/W35_May18/ATP%20W35.sav)
+I downloaded the survey data conducted by PEW RESEARCH CENTER in May-June 2018. The SPSS file from the [Pew Research Center website](https://www.pewinternet.org/?post_type=dataset) can be found [here](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/W35_May18/ATP%20W35.sav).
 
-Before working with the data, a bit of data cleaning and transformation was necessary:
-
+Observations are 4,594 non-institutionalized persons age 18 and over, living in the US, including Alaska and Hawaii.
 
 
 ## EXPLORATORY DATA ANALYSIS
 
-###### Target variable:
+###### Target variable: 
+View towards computer decisions:
+1. It is possible for computer programs to make decisions without human bias (PERFECT)
+2. Computer programs will always reflect the biases of the people who designed them
+
 ###### Features (33 selected from 190):
+The endogenous  variables used are:
+1. Demographics (Income - Age - Marital Status - Religion)
+2. Specific questions from the survey re social media use and opinions related to major technology companies
+
+Before working with the data, some data cleaning and transformation were necessary:
+1. Remove observations with missing data (answers coded 99 or NAN)
+2. Rename columns name
+3. Convert the answers for 'Refused’ to a neutral modality
+4. Scale the data for better performance of models and like for like comparison
+5. Create dummies
  
 #### Profiles of the respondents
+![Distribution target](Classification_Project_Views_towards_Computer_Decisions/Support-Docs/Graphs-Pics/Distribution_target.png)
+* Majority of the adults interviewed think that computer algorithms are biased by designers errors
+
+![age](Classification_Project_Views_towards_Computer_Decisions/Support-Docs/Graphs-Pics/Age.png)
+![Income](Classification_Project_Views_towards_Computer_Decisions/Support-Docs/Graphs-Pics/Income2.png)
+![Education](Classification_Project_Views_towards_Computer_Decisions/Support-Docs/Graphs-Pics/Education.png)
+
+* 32% of the respondents are between 50-64 years old
+* More than the average are at least college graduate
+* 44% are earning US$75k or more
+* These profiles shows how the respondents are aware of the question asked
+
+
+
 #### Attitudes towards comupter algorithms by Demographics of respondents
 
 
