@@ -32,16 +32,15 @@ Observations are 4,594 non-institutionalized persons age 18 and over, living in 
 
 
 ## EXPLORATORY DATA ANALYSIS
-
-###### Target variable: 
+#### Target variable: 
 View towards computer decisions:
 1. It is possible for computer programs to make decisions without human bias (PERFECT)
 2. Computer programs will always reflect the biases of the people who designed them
-
-###### Features (33 selected from 190):
+##### Features (33 selected from 190):
 The endogenous  variables used are:
 1. Demographics (Income - Age - Marital Status - Religion)
 2. Specific questions from the survey re social media use and opinions related to major technology companies
+
 
 Before working with the data, some data cleaning and transformation were necessary:
 1. Remove observations with missing data (answers coded 99 or NAN)
@@ -51,12 +50,12 @@ Before working with the data, some data cleaning and transformation were necessa
 5. Create dummies
  
 #### Profiles of the respondents
-![Distribution target](Classification_Project_Views_towards_Computer_Decisions/Support-Docs/Graphs-Pics/Distribution_target.png)
+![Distribution target](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/Distribution_target.png)
 * Majority of the adults interviewed think that computer algorithms are biased by designers errors
 
-![age](Classification_Project_Views_towards_Computer_Decisions/Support-Docs/Graphs-Pics/Age.png)
-![Income](Classification_Project_Views_towards_Computer_Decisions/Support-Docs/Graphs-Pics/Income2.png)
-![Education](Classification_Project_Views_towards_Computer_Decisions/Support-Docs/Graphs-Pics/Education.png)
+![age](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisionsblob/master//Support-Docs/Graphs-Pics/Age.png)
+![Income](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/Income2.png)
+![Education](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/Edcation.png)
 
 * 32% of the respondents are between 50-64 years old
 * More than the average are at least college graduate
