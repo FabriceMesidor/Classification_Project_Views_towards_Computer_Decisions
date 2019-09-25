@@ -2,10 +2,7 @@
 
 #  Prediction of an American adult view toward computers algorithm based on the data collected from a Pew Research Center Survey conducted in 2018
 
-
-## SUMMARY 
-Predict an American view towards computer decisions
-
+After a project on linear regression, 
 
 ## JUSTIFICATION
 Nowadays, we are observing an considerable development of machine learning and Artificial Intelligence. Computer decisions are running our life: the recommendation of a simple book to read or finding our next travel destinations are the results of algorithms based on our past behaviors. Analysts expect that people will become even more dependent on networked artificial intelligence (AI) in complex digital systems. Hence, different sectors raise the concern about impact of AI on production and free will of human being. Before getting to these concerns, a couple of questions are worth asking: How do we perceive computer decisions? Is that perception explained by our demographic profiles and habits? Hence, the purpose of this research which will be try to answer the previous questions on machine learning with .. machine learning based on some classification models.
@@ -110,13 +107,17 @@ In order to evaluate the different results that I will get, I started by establi
 * Best models didn’t used all the features - Possibly of reduce our features
 
 #### PCA
-PCA to reduce the features
-Models results after PCA
+The purpose of the PCA is to reduce the features in the dataset into components while preserving the maximum amount of informations possible. The components can be used in the model after creation. Graphs below showed respectively a visual to understand PCA and the results of the model using PCA. SVM was incorporated at this stage as the components might be hardly inseparable (as shown in the 3D graph) and SVM is good as classifying in such case.
+
 
 ## FINAL RESULT
 
 
 ## CONSIDERATIONS
+Use of other variables in the database for better accuracy
+Other methods can help tune better the models
+Cross validation for training and testing the models
+
 
 
 
