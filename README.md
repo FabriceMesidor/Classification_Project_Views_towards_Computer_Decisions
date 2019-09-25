@@ -121,13 +121,15 @@ Once I have the models built, I apply them on the testing data to evaluate them.
 ![importance features](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/importance1.png)
 
 * The logistic regression classified with an accuracy of 65% unseen data
-* 
+* The SVM model was more balanced with good performance for both training (f1-score 47%) and testing data (64% accuracy) 
+* Variables related to the demographics category were mostly used for the classification - "internet users" was important (trivial) to make the predictions
 
 
-## CONSIDERATIONS
-Use of other variables in the database for better accuracy
-Other methods can help tune better the models
-Cross validation for training and testing the models
+## FINAL CONSIDERATIONS
+After fitting and evaluating different classification models, I kept 2 that did better than tossing a coin.
+It was possible with ~65% accuracy to make the distiunguish between attitudes of American adults towards computer decisions.
+However, it would be interesting to use other variables in the database for better accuracy. Aslo, other methods can help tune better the models.
+Instead using a random train, test, split, an extension of this reseach would be to experiment cross validation for training and testing the models
 
 
 
