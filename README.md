@@ -107,10 +107,21 @@ In order to evaluate the different results that I will get, I started by establi
 * Best models didn’t used all the features - Possibly of reduce our features
 
 #### PCA
-The purpose of the PCA is to reduce the features in the dataset into components while preserving the maximum amount of informations possible. The components can be used in the model after creation. Graphs below showed respectively a visual to understand PCA and the results of the model using PCA. SVM was incorporated at this stage as the components might be hardly inseparable (as shown in the 3D graph) and SVM is good as classifying in such case.
+The purpose of the PCA is to reduce the features in the dataset into components while preserving the maximum amount of informations possible. The components can be used in the model after creation. Graphs below showed respectively a visual to understand PCA and the results of the model using PCA. SVM was incorporated at this stage as the components might be hardly inseparable (as shown in the 3D graph - a representation of the first 3 components) and SVM is good as classifying in such case.
 
+![pca graphs](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/pca%20explaining.png)
+
+![result models pca](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/pca%20models.png)
 
 ## FINAL RESULT
+Once I have the models built, I apply them on the testing data to evaluate them.
+
+![testing](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/testing%20final.png)
+
+![importance features](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/importance1.png)
+
+* The logistic regression classified with an accuracy of 65% unseen data
+* 
 
 
 ## CONSIDERATIONS
