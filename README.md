@@ -85,6 +85,11 @@ Before working with the data, some data cleaning and transformation were necessa
 * We can assume some difference of views based on interactions of respondents with social media or major tech companies
 
 #### Independence of Features and Target
+![Correlation Heatmap](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/Correlation-Heatmap.png)
+
+![Correlation vs. target](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/Correlation-coef.png)
+
+* No correlation between the features and target variable that would cause any issue to the modeling process.
 
 
 ## MODELS
