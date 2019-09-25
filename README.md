@@ -93,8 +93,22 @@ Before working with the data, some data cleaning and transformation were necessa
 
 
 ## MODELS
-Models used:
-EVALUATION:
+#### BASELINE
+In order to evaluate the different results that I will get, I started by establishig a baseline model. I picked the DummyClassifier which is a classifier that makes predictions using simple rules. The Strategy: “uniform” was selected to generate predictions uniformly at random
+
+#### MODELS USED
+
+
+
+* I used different methods to tune the hyperparameters of the models
+* F1 score and accuracy rate were used to comprare the models
+
+#### EVALUATION:
+* KNN didn’t perform well with 51% AUC
+* Using AUC, logistic regression, Random Forest and Adaboost gave better accuracy score.
+* XGBoost retained due to better f1 score compared to Adaboost
+* Best models didn’t used all the features - Possibly of reduce our features
+
 
 PCA to reduce the features
 Models results after PCA
