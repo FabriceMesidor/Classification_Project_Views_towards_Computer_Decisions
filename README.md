@@ -125,7 +125,7 @@ Once I have the models built, I apply them on the testing data to evaluate them.
 
 
 ## FINAL CONSIDERATIONS
-After fitting and evaluating different classification models, I kept 2 that did better than tossing a coin.
+After fitting and evaluating different classification models, I kept 2 models that did better than tossing a coin.
 It was possible with ~65% accuracy to make the distinguish between attitudes of American adults towards computer decisions.
 However, it would be interesting to use other variables in the database for better accuracy. Aslo, other methods can help tune the models in a more effective way.
 Instead using a random train, test, split, an extension of this reseach would be to experiment cross validation for training and testing the models
