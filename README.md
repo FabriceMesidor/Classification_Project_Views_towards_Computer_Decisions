@@ -4,12 +4,10 @@
 ## JUSTIFICATION
 Nowadays, we are observing a considerable development of machine learning and Artificial Intelligence. Computer decisions are running our life with more expectations in the future. While concerns about impact of AI are being raised, it is also worth asking: How do we perceive computer decisions? Is that perception explained by our demographic profiles and habits?
 
-## OBJECTIVES
-Find out:
+## OBJECTIVE
 How social and demographic behaviors of an individual can help predict is view towards computer decisions? 
 
 ## HYPOTHESES
-
 1. Based on an adult profiles and social media behaviors, we can determine his attitudes towards computer algorithms.
 2. Social and economic profiles (income, ethnicity, education) are more likely to influence the perception towards computer decisions.
 
@@ -22,12 +20,8 @@ View towards computer decisions:
 1. It is possible for computer programs to make decisions without human bias (PERFECT)
 2. Computer programs will always reflect the biases of the people who designed them
 #### Features (33 selected from 190):
-The endogenous  variables used are:
-1. Demographics (Income - Age - Marital Status - Religion)
-2. Specific questions from the survey re social media use and opinions related to major technology companies
 
-
-Before working with the data, some data cleaning and transformation were necessary:
+#### Data Cleaning
 1. Remove observations with missing data (answers coded 99 or NAN)
 2. Rename columns name
 3. Convert the answers for 'Refused’ to a neutral modality
