@@ -39,14 +39,11 @@ View towards computer decisions:
 * 32% of the respondents are between 50-64 years old
 * More than the average are at least college graduate
 * 44% are earning US$75k or more
-* These profiles shows how the respondents are aware of the question asked
 
 #### Attitudes towards computer algorithms by Demographics Categories of respondents
 ![by Income](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/IncomevsTarget.png)
 
 ![by Marital Status](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/MaritalvsTarget.png)
-
-![by Religion](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/ReligionvsTarget.png)
 
 * The attitudes towards computer decisions are not uniform and vary based on the profiles
 
@@ -74,8 +71,7 @@ DummyClassifier: 50% accuracy
 #### MODELS USED
 ![modelsresults](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/Models%20Results.png)
 
-* I used different methods to tune the hyperparameters of the models
-* F1 score and accuracy rate were mostly used to compare the models
+* F1 score and accuracy rate were mostly used to compare the models (all tuned)
 
 * KNN didn’t perform well with 51% AUC
 * Using AUC, logistic regression, Random Forest and Adaboost gave better accuracy score.
@@ -87,11 +83,7 @@ The purpose of the PCA is to reduce the features in the dataset into components 
 
 ![pca graphs](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/pca%20explaining.png)
 
-![result models pca](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/pca%20models.png)
-
 ## FINAL RESULT
-
-![testing](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/testing%20final.png)
 
 ![importance features](https://github.com/FabriceMesidor/Classification_Project_Views_towards_Computer_Decisions/blob/master/Support-Docs/Graphs-Pics/importance1.png)
 
@@ -101,10 +93,8 @@ The purpose of the PCA is to reduce the features in the dataset into components 
 
 
 ## FINAL CONSIDERATIONS
-After fitting and evaluating different classification models, I kept 2 models that did better than tossing a coin.
 It was possible with ~65% accuracy to make the distinguish between attitudes of American adults towards computer decisions.
-However, it would be interesting to use other variables in the database for better accuracy. Aslo, other methods can help tune the models in a more effective way.
-Instead using a random train, test, split, an extension of this reseach would be to experiment cross validation for training and testing the models
+However, it would be interesting to use other variables in the database for better accuracy and other methods for tuning.
 
 
 
