@@ -1,11 +1,11 @@
-#  Prediction of an American adult view toward computers algorithm based on the data collected from a Pew Research Center Survey conducted in 2018
+#  Prediction of an American adult view towards computers algorithm based on the data collected from a Pew Research Center Survey conducted in 2018
 
 
 ## JUSTIFICATION
 Nowadays, we are observing a considerable development of machine learning and Artificial Intelligence. Computer decisions are running our life with more expectations in the future. While concerns about impact of AI are being raised, it is also worth asking: How do we perceive computer decisions? Is that perception explained by our demographic profiles and habits?
 
 ## OBJECTIVE
-How social and demographic behaviors of an individual can help predict is view towards computer decisions? 
+How social and demographic behaviors of an individual can help predict his views towards computer decisions? 
 
 ## HYPOTHESES
 1. Based on an adult profiles and social media behaviors, we can determine his attitudes towards computer algorithms.
@@ -76,7 +76,7 @@ DummyClassifier: 50% accuracy
 * KNN didn’t perform well with 51% AUC
 * Using AUC, logistic regression, Random Forest and Adaboost gave better accuracy score.
 * XGBoost retained due to better f1 score compared to Adaboost
-* Best models didn’t used all the features - Possibly of reduce our features
+* Best models didn’t used all the features - Possibility to reduce our features
 
 #### PCA
 The purpose of the PCA is to reduce the features in the dataset into components while preserving the maximum amount of information possible. The components can be used for modeling afterwards. Graphs below showed respectively a visual to understand PCA and the results of the model using PCA. SVM was incorporated at this stage as the components might be hardly be able to get classified (as shown in the 3D graph - a representation of the first 3 components) and SVM is good as classifying in such case.
