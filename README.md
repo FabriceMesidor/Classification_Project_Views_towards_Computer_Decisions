@@ -19,7 +19,7 @@ Observations are 4,594 non-institutionalized persons age 18 and over, living in 
 View towards computer decisions:
 1. It is possible for computer programs to make decisions without human bias (PERFECT)
 2. Computer programs will always reflect the biases of the people who designed them
-#### Features (33 selected from 190):
+#### Features (33 selected from 190 - to 48 after creating dummies for some of the variables):
 
 #### Data Cleaning
 1. Remove observations with missing data (answers coded 99 or NAN)
